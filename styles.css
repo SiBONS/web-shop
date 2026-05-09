@@ -151,23 +151,24 @@ header img {
 }
 
 
+/* STYLE FOR TYPING EFFECT */
 h1 {
-  /* font-family: monospace; */
-  overflow: hidden; /* Hides text until animated */
-  border-right: .15em solid white; /* Cursor */
-  white-space: nowrap; /* Keeps text on one line */
-  width: 0;
+  width: 10ch; /* Width of text + 1 for safety */
   animation: 
-    typing 3.5s steps(10, end) forwards,
-    blink-caret .75s step-end;
+    typing 2s steps(9) forwards, /* 9 characters in pc:\DOC_ */
+    blink .5s step-end 4;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+  font-family: monospace;
+  font-size: 2em;
 }
 
-/* Keyframes */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 10ch }
 }
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+
+@keyframes blink {
+  50% { border-color: white }
 }
