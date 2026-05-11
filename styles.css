@@ -11,6 +11,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Ubuntu", sans-serif;
+    color: #5d5d5d;
+    text-align: center;
 }
 
 img {
@@ -109,6 +111,86 @@ header img {
     transition: transform 0.3s ease, opacity 0.3s;
 }
 
+
+
+
+/* STYLE FOR TYPING EFFECT */
+h1 {
+  width: 10ch; /* Width of text + 1 for safety */
+  animation: 
+    typing 2s steps(9) forwards, /* 9 characters in pc:\DOC_ */
+    blink .5s step-end 4;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 10ch }
+}
+
+@keyframes blink {
+  50% { border-color: white }
+}
+
+
+
+/* SHOP SECTION  */
+.shop {
+  margin: 0;
+  padding: 2em;
+  background-color: #f3f1eaaf;
+  /* max-width: 1200px; */
+}
+
+.shop-intro,
+.form-intro {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  max-width: 700px;
+}
+
+
+.shop-items {
+  max-width: 1000px;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center; 
+  gap: 10px;
+
+}
+
+.shop-item {
+  max-width: 450px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2em;
+}
+
+.shop-item img {
+  width: 50%;
+}
+
+.shop-item:hover {
+  background: rgb(43, 46, 45);
+  transition: 0.3s ease-in-out;
+  color: whitesmoke;
+}
+
+/* FOOTER  */
+footer {
+  background-color: rgb(41, 41, 53);
+  padding: 1.5em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+/* RESPONSIVE for smaller screens  */
 @media (max-width: 768px) {
 
   #hamburger {
@@ -148,79 +230,57 @@ header img {
   #menu-toggle:checked ~ #hamburger span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
 }
 
 
-/* STYLE FOR TYPING EFFECT */
-h1 {
-  width: 10ch; /* Width of text + 1 for safety */
-  animation: 
-    typing 2s steps(9) forwards, /* 9 characters in pc:\DOC_ */
-    blink .5s step-end 4;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid transparent;
-  font-family: monospace;
-  font-size: 2em;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 10ch }
-}
-
-@keyframes blink {
-  50% { border-color: white }
-}
-
-
-
-/* SHOP SECTION  */
-.shop {
-  margin: 0;
-  padding: 0;
-  background-color: #f3f1eaaf;
-  /* max-width: 1200px; */
-}
-
-.shop-intro {
+/* FORM STYLING */
+.form-container {
   margin: 0 auto;
-  padding: 2em;
-  text-align: center;
-  max-width: 700px;
+  padding: 1em;
+  max-width: 650px;
 }
 
-
-.shop-items {
-  max-width: 1000px;
-  margin: 2em auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  place-items: center; 
-  gap: 10px;
-
+form {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.shop-item {
-  max-width: 450px;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 2em;
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
 }
 
-.shop-item img {
-  width: 50%;
+.form-item input,
+.form-item textarea,
+.form-item button  {
+  width: 60%;
+  margin: 0 auto;
+    outline: none;
+    border: none;
 }
 
-.shop-item:hover {
-  background: rgb(214, 214, 213);
-  transition: 0.3s ease-in-out;
+.form-item input {
+  border: unset;
+  border-bottom: 2px solid rgb(113, 113, 117);
+  min-height: 2em;
 }
 
-/* FOOTER  */
-footer {
-  background-color: rgb(41, 41, 53);
-  padding: 1.5em;
-  text-align: center;
-  color: whitesmoke;
+.form-item textarea {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.form-item button {
+    text-transform: uppercase;
+    color: white;
+    margin: 2em auto;
+    max-width: 170px;
+    background-color: #3882f6;
+    padding: 1.5em;
+    border-radius: 8px;
+}
+
+.form-item button:hover {
+  background-color:#154085;
+}
+

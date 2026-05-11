@@ -20,7 +20,7 @@
   <ul>
     <li><a href="#">SHOP</a></li>
     <li><a href="#">CONFIGURATOR</a></li>
-    <li><a href="#">SIGN UP</a></li>
+    <li><a href="signup.html">SIGN UP</a></li>
     <li><a href="#">CONTACT</a></li>
   </ul>
 </nav>
@@ -58,11 +58,11 @@
       </div>
        <div class="shop-item">
         <img src="images/shop-icons/nvme.png" alt="">
-        <p class="shop-item__name">SSD and Hard Drives</p>
+        <p class="shop-item__name">SSD and HDD</p>
       </div>
        <div class="shop-item">
         <img src="images/shop-icons/power-supply.png" alt="">
-        <p class="shop-item__name">Power Supplies</p>
+        <p class="shop-item__name">PSU</p>
       </div>
        <div class="shop-item">
         <img src="images/shop-icons/processor.png" alt="">
@@ -74,7 +74,35 @@
       </div>
     </div>
   </section>
-  <!-- <a href="signup.html">Sign Up</a> -->
+  
+  <form action="#">
+    <div class="form-intro">
+      <h2>CONTACT</h2>
+      <p>We answer all of your inquiries and suggestions. You can contact us from the form below.</p>
+    </div>
+  
+   <div class="form-container">
+     <div class="form-item">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required>
+     </div>
+      <div class="form-item">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-item">
+        <label for="tel">Phone Number</label><br>
+        <input type="tel" id="tel" name="tel">
+      </div>
+      <div class="form-item">
+        <label for="comment">Your Message</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="6"></textarea>
+      </div>
+      <div class="form-item">
+        <button type="submit">SUBMIT</button>
+      </div>
+   </div>
+  </form>
   <script src="script.js"></script>
   <footer>
     <p>&copy; pc:\DOC_ 2026</p>
