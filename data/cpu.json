@@ -1,0 +1,52 @@
+[
+    {
+        "id": "cpu-001",
+        "name": "AMD Ryzen 9 9950X3D",
+        "category": "cpu",
+        "price": 599,
+        "stock": 10,
+        "image": "images/products/cpu-001.jpg",
+        "specs": {
+            "cores": 16,
+            "threads": 32,
+            "base_clock": "4.3 Ghz",
+            "socket": "AM5",
+            "tdp": "170W"
+        },
+        "description": "A high end processor best suitable for AAA gaming and content creation."
+    },
+
+    {
+        "id": "cpu-002",
+        "name": "Intel Core i5-13600K",
+        "category": "cpu",
+        "price": 299,
+        "stock": 22,
+        "image": "images/products/cpu-002.jpg",
+        "specs": {
+            "cores": 14,
+            "threads": 20,
+            "base_clock": "3.5 Ghz",
+            "socket": "LGA1700",
+            "tdp": "125W"
+        },
+        "description": "A great mid-range processor for gaming and productivity."
+    },
+
+    {
+        "id": "cpu-003",
+        "name": "Intel Core Ultra 9 285K",
+        "category": "cpu",
+        "price": 799,
+        "stock": 13,
+        "image": "images/products/cpu-003.jpg",
+        "specs" : {
+            "cores": 24,
+            "threads": 24,
+            "base_clock": "3.7 Ghz",
+            "socket": "LGA1851",
+            "tdp": "125W"
+        },
+        "description":"A powerfull processor of the newest generation ideal for gaming, AI workloads; very power efficient for multitasking."
+    }
+]
