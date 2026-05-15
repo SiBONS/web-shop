@@ -283,3 +283,50 @@ form {
   background-color:#154085;
 }
 
+/* SHOP HTML STYLING */
+#product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2em;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 350px;
+  max-height: 200px;
+}
+
+.shop-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+aside {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+#product-grid {
+  flex: 1;
+}
+
+.shop-page {
+    padding: 20px;
+}
+
+.shop-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.shop-controls input {
+    flex: 1;        /* search bar stretches to fill space */
+    padding: 0.6em;
+}

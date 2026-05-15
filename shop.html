@@ -26,23 +26,31 @@
   </ul>
 </nav>
  <h1>Shop</h1>
- <div class="search">
-    <label for="shop-search">Search Shop:</label>
-    <input type="search" id="shop-search">
-    <button class="search-btn">Search</button>
- </div>
-  <aside>
-    <form id="product-filter">
-    <fieldset>
+ <div class="shop-page">
+    <div class="shop-controls">
+        <input type="search" id="shop-search" placeholder="Search products...">
+        <button class="search-btn">Search</button>
+        <select id="sort-select">
+            <option value="">Sort by...</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A to Z</option>
+        </select>
+    </div>
+ 
+   <div class="shop-layout">
+     <aside>
+      <form id="product-filter">
+      <fieldset>
         <legend>Filter Products</legend>
 
         <!-- Category Filter -->
         <div class="filter-group">
             <label>Category</label>
-            <input type="checkbox" name="cpu" value="cpu">CPU<br>
-            <input type="checkbox" name="motherboard" value="motherboard">Motherboard<br>
-            <input type="checkbox" name="fans" value="fans">Fans<br>
-             <input type="checkbox" name="case" value="case">Computer Case<br>
+            <label for="cpu"><input id="cpu" type="checkbox" name="cpu" value="cpu">CPU</label><br>
+            <label for="motherboard"><input id="motherboard" type="checkbox" name="motherboard" value="motherboard">Motherboard</label><br>
+            <label for="fans"><input id="fans" type="checkbox" name="fans" value="fans">Fans</label><br>
+             <label for="case"><input type="checkbox" name="case" value="case">Computer Case</label><br>
         </div>
 
         <!-- Price Range Filter -->
@@ -53,9 +61,12 @@
 
         <!-- Submit Button -->
         <button type="submit">Apply Filters</button>
-    </fieldset>
-    </form>
-  </aside>
+      </fieldset>
+      </form>
+    </aside>
+    <div id="product-grid"></div>
+ </div>
+ </div>
   <script src="js/shop.js"></script>
   <footer>
     <p>&copy; pc:\DOC_ 2026</p>
