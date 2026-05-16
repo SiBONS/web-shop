@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ssd-001",
+    "name": "Samsung 990 Pro 2TB",
+    "brand": "Samsung",
+    "category": "ssd",
+    "price": 199,
+    "stock": 11,
+    "image": "images/products/ssd-001.jpg",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 NVMe",
+      "read_speed": "7450 MB/s",
+      "write_speed": "6900 MB/s",
+      "form_factor": "M.2 2280"
+    },
+    "description": "The Samsung 990 Pro 2TB is a premium PCIe 4.0 NVMe M.2 solid-state drive built for hardcore gamers, content creators, and heavy workloads. It pushes the absolute limits of the Gen4 interface, offering blazing-fast loading and rendering speeds, exceptional power efficiency, and industry-leading hardware endurance."
+  },
+  {
+    "id": "ssd-002",
+    "name": "WD Black SN850X 1TB",
+    "brand": "Western Digital",
+    "category": "ssd",
+    "price": 129,
+    "stock": 2,
+    "image": "images/products/ssd-002.jpg",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 NVMe",
+      "read_speed": "7300 MB/s",
+      "write_speed": "6300 MB/s",
+      "form_factor": "M.2 2280"
+    },
+    "description": "The WD Black SN850X 1TB is a high-performance PCIe Gen4 NVMe internal SSD built for elite gaming and heavy workloads. It delivers blistering sequential read speeds of up to 7,300 MB/s and write speeds of up to 6,300 MB/s, vastly reducing game load times and system latency."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ram-001",
+    "name": "Corsair Vengeance DDR5 32GB",
+    "brand": "Corsair",
+    "category": "ram",
+    "price": 149,
+    "stock": 2,
+    "image": "images/products/ram-001.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "6000 MHz",
+      "type": "DDR5",
+      "latency": "CL30",
+      "kit": "2x16GB"
+    },
+    "description": "The Corsair Vengeance DDR5 32GB (often sold as a 2x16GB kit) is a premium, high-speed RAM kit designed for modern gaming PCs and content creation workstations. It delivers exceptional bandwidth, on-board voltage regulation for stable overclocking, and a compact heatspreader for wide cooler compatibility."
+  },
+  {
+    "id": "ram-002",
+    "name": "G.Skill Trident Z5 RGB 32GB",
+    "brand": "G.Skill",
+    "category": "ram",
+    "price": 169,
+    "stock": 4,
+    "image": "images/products/ram-002.jpg",
+    "specs": {
+      "capacity": "32GB",
+      "speed": "6400 MHz",
+      "type": "DDR5",
+      "latency": "CL32",
+      "kit": "2x16GB"
+    },
+    "description": "The G.Skill Trident Z5 RGB 32GB is a premium, high-performance DDR5 RAM kit (typically sold as a 2x16 GB set) designed for enthusiasts and gamers. It features a sleek aluminum heat spreader, a customizable RGB light bar, and supports high speeds with low latency."
+  }
+]

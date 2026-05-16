@@ -1,0 +1,34 @@
+[
+  {
+    "id": "psu-001",
+    "name": "Corsair RM850x",
+    "brand": "Corsair",
+    "category": "psu",
+    "price": 159,
+    "stock": 1,
+    "image": "images/products/psu-001.jpg",
+    "specs": {
+      "wattage": "850W",
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "form_factor": "ATX"
+    },
+    "description": "The Corsair RM850x is a premium, fully modular 850-watt ATX power supply. Renowned for reliability and quiet operation, it features an 80 PLUS Gold certification, high-quality Japanese capacitors, and a Zero RPM fan mode that allows the 140mm fluid dynamic bearing fan to stop entirely at low loads for silence."
+  },
+  {
+    "id": "psu-002",
+    "name": "Seasonic Focus GX-750",
+    "brand": "Seasonic",
+    "category": "psu",
+    "price": 139,
+    "stock": 3,
+    "image": "images/products/psu-002.jpg",
+    "specs": {
+      "wattage": "750W",
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "form_factor": "ATX"
+    },
+    "description": "A premium, fully modular 750-watt power supply designed for high-performance PC builds.Featuring an 80 PLUS Gold efficiency rating, 100% Japanese capacitors, and a 10-year manufacturer warranty, it guarantees exceptional stability, quiet operation, and long-term reliability for modern hardware."
+  }
+]

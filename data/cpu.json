@@ -2,6 +2,7 @@
     {
         "id": "cpu-001",
         "name": "AMD Ryzen 9 9950X3D",
+        "brand": "AMD",
         "category": "cpu",
         "price": 599,
         "stock": 10,
@@ -13,12 +14,13 @@
             "socket": "AM5",
             "tdp": "170W"
         },
-        "description": "A high end processor best suitable for AAA gaming and content creation."
+        "description": "The AMD Ryzen 9 9950X3D is a flagship 16-core, 32-thread desktop processor that merges heavyweight productivity with top-tier gaming capabilities. It features AMD's 2nd-generation 3D V-Cache technology, offering massive cache capacity to breeze through both extreme gaming sessions and heavy content creation workflows."
     },
 
     {
         "id": "cpu-002",
         "name": "Intel Core i5-13600K",
+        "brand": "INTEL",
         "category": "cpu",
         "price": 299,
         "stock": 22,
@@ -30,12 +32,13 @@
             "socket": "LGA1700",
             "tdp": "125W"
         },
-        "description": "A great mid-range processor for gaming and productivity."
+        "description": "The Intel Core i5-13600K is a highly acclaimed 13th-generation desktop processor. Featuring 14 cores (6 performance, 8 efficiency) and 20 threads, it offers exceptional performance for both gaming and heavy multitasking. It's 'K' designation means it is unlocked for overclocking."
     },
 
     {
         "id": "cpu-003",
         "name": "Intel Core Ultra 9 285K",
+        "brand": "INTEL",
         "category": "cpu",
         "price": 799,
         "stock": 13,
@@ -47,6 +50,6 @@
             "socket": "LGA1851",
             "tdp": "125W"
         },
-        "description":"A powerfull processor of the newest generation ideal for gaming, AI workloads; very power efficient for multitasking."
+        "description":"The Intel Core Ultra 9 285K is Intel's flagship desktop processor (codename Arrow Lake-S). Built on the new LGA 1851 socket and TSMC’s advanced 3nm process, it features 24 cores, reduced power consumption, and a dedicated NPU for AI, making it designed for gaming, content creation, and heavily threaded workloads."
     }
 ]

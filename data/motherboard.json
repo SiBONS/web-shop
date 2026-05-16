@@ -1,0 +1,37 @@
+[
+  {
+    "id": "motherboard-001",
+    "name": "ASUS ROG Strix B650E-F",
+    "brand": "ASUS",
+    "category": "motherboard",
+    "price": 289,
+    "stock": 10,
+    "image": "images/products/motherboard-001.jpg",
+    "specs": {
+      "socket": "AM5",
+      "chipset": "B650E",
+      "form_factor": "ATX",
+      "ram_slots": 4,
+      "max_ram": "192GB"
+    },
+    "description": "The ASUS ROG Strix B650E-F Gaming WiFi is an ATX motherboard for AMD's AM5 socket, supporting Ryzen 7000, 8000, and 9000 series processors. It offers a premium, feature-rich base for gaming builds, boasting PCIe 5.0 readiness, DDR5 support, Wi-Fi 6E, and robust VRMs."
+  },
+
+  {
+    "id": "motherboard-002",
+    "name": "MSI MAG Z790 Tomahawk WiFi",
+    "brand": "MSI",
+    "category": "motherboard",
+    "price": 319,
+    "stock": 3,
+    "image": "images/products/motherboard-002.jpg",
+    "specs": {
+      "socket": "LGA1700",
+      "chipset": "Z790",
+      "form_factor": "ATX",
+      "ram_slots": 4,
+      "max_ram": "192GB"
+    },
+    "description": "The MSI MAG Z790 Tomahawk WiFi is an ATX motherboard built for 12th, 13th, and 14th Gen Intel processors. It features a robust 16+1+1 power phase design, PCIe 5.0 support, and premium connectivity—including Wi-Fi 6E and a 2.5G LAN—making it a highly reliable foundation for high-end gaming and productivity PCs."
+  }
+]

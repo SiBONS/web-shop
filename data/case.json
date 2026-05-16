@@ -1,0 +1,34 @@
+[
+  {
+    "id": "case-001",
+    "name": "NZXT H7 Flow",
+    "brand": "NZXT",
+    "category": "case",
+    "price": 129,
+    "stock": 10,
+    "image": "images/products/case-001.jpg",
+    "specs": {
+      "form_factor": "Mid Tower",
+      "max_gpu_length": "400mm",
+      "drive_bays": "2x 3.5, 4x 2.5",
+      "side_panel": "Tempered Glass"
+    },
+    "description": "The NZXT H7 Flow is a high-performance, mid-tower PC case built to maximize thermal efficiency. It features ultra-perforated front and top panels, intuitive cable management, and a spacious interior that easily accommodates large graphics cards and massive water cooling radiators."
+  },
+  {
+    "id": "case-002",
+    "name": "Lian Li Lancool III",
+    "brand": "Lian Li",
+    "category": "case",
+    "price": 169,
+    "stock": 22,
+    "image": "images/products/case-002.jpg",
+    "specs": {
+      "form_factor": "Mid Tower",
+      "max_gpu_length": "435mm",
+      "drive_bays": "4x 3.5, 6x 2.5",
+      "side_panel": "Tempered Glass"
+    },
+    "description": "The Lian Li Lancool III is a premium, high-airflow mid-tower PC chassis celebrated for its exceptional modularity, extensive water-cooling support, and builder-friendly design. Featuring fine mesh panels, hinged tempered glass doors, and excellent cable management, it comfortably accommodates high-end, oversized components."
+  }
+]

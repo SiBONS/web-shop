@@ -1,0 +1,36 @@
+[
+  {
+    "id": "gpu-001",
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "brand": "NVIDIA",
+    "category": "gpu",
+    "price": 649,
+    "stock": 11,
+    "image": "images/products/gpu-001.jpg",
+    "specs": {
+      "vram": "12GB",
+      "memory_type": "GDDR6X",
+      "boost_clock": "2475 MHz",
+      "tdp": "220W",
+      "connector": "16-pin"
+    },
+    "description": "The NVIDIA GeForce RTX 4070 Super is a high-performance, mid-range graphics card based on the Ada Lovelace architecture. It offers exceptional energy efficiency and features 7,168 CUDA cores, 12GB of GDDR6X memory, and DLSS 3 frame generation for maxed-out 1440p gaming."
+  },
+  {
+    "id": "gpu-002",
+    "name": "AMD Radeon RX 7800 XT",
+    "brand": "AMD",
+    "category": "gpu",
+    "price": 529,
+    "stock": 2,
+    "image": "images/products/gpu-002.jpg",
+    "specs": {
+      "vram": "16GB",
+      "memory_type": "GDDR6",
+      "boost_clock": "2430 MHz",
+      "tdp": "263W",
+      "connector": "2x 8-pin"
+    },
+    "description": "The AMD Radeon RX 7800 XT is a high-performance graphics card built on the RDNA 3 architecture. It is designed for maxed-out 1440p gaming and features 16 GB of GDDR6 memory, AV1 encoding, and hardware raytracing."
+  }
+]

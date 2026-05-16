@@ -1,0 +1,36 @@
+[
+  {
+    "id": "fans-001",
+    "name": "Noctua NF-A12x25 PWM",
+    "brand": "Noctua",
+    "category": "fans",
+    "price": 34,
+    "stock": 17,
+    "image": "images/products/fans-001.jpg",
+    "specs": {
+      "size": "120mm",
+      "rpm": "2000 RPM",
+      "airflow": "60.1 CFM",
+      "noise_level": "22.6 dBA",
+      "bearing_type": "SSO2"
+    },
+    "description": "The Noctua NF-A12x25 PWM is a premium 120mm cooling fan renowned for its exceptional balance of high airflow and static pressure, alongside ultra-quiet operation. It serves as an excellent all-rounder, making it ideal for PC cases, CPU heatsinks, and water-cooling radiators."
+  },
+  {
+    "id": "fans-002",
+    "name": "Corsair iCUE AF120 RGB Elite",
+    "brand": "Corsair",
+    "category": "fans",
+    "price": 39,
+    "stock": 11,
+    "image": "images/products/fans-002.jpg",
+    "specs": {
+      "size": "120mm",
+      "rpm": "2100 RPM",
+      "airflow": "65.5 CFM",
+      "noise_level": "34.1 dBA",
+      "bearing_type": "Fluid Dynamic Bearing"
+    },
+    "description": "The Corsair iCUE AF120 RGB Elite is a high-performance 120mm PWM fan that combines powerful cooling, whisper-quiet operation, and vivid customizable lighting. Equipped with AirGuide technology, fluid dynamic bearings, and 8 individually addressable RGB LEDs, it is ideal for PC cases, liquid coolers, and heatsinks."
+  }
+]
